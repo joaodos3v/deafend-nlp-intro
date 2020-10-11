@@ -118,14 +118,14 @@ Antes de mais nada, execute este comando, pois ele irá utilizar o modelo em Por
 
 ```shell
 # Irá abrir o interpretador Python que adicionamos no começo do tutorial
-python3
+ptpython
 ```
 
 ```python
 # Importe a biblioteca Spacy para o script
 import spacy
 
-# Irá abrir o interpretador Python que adicionamos no começo do tutorial
+# Iremos instanciar uma variável que irá carregar o modelo que baixamos anteriormente
 pln = spacy.load('pt_core_news_lg')
 ```
 
@@ -205,6 +205,27 @@ Confesso que a lematização (saiba mais [aqui](http://www.nilc.icmc.usp.br/nilc
 doc2 = pln('procurar, procurarão, procuraram, procurei, procurava, procurou, procurava')
 [token.lemma_ for token in doc2 if token.pos_ == 'VERB']
 ```
+
+### Visualizando as dependências de nosso Doc
+
+Por fim, uma ferramenta incrível que o Spacy possui embutida é poder ver gráficos que expressam as ligações entre as palavras de um Doc. Vamos visualizar utilizando nossa frase de exemplo:
+
+<p align="center">
+  <img src="./imagens/Demonstração_6.1.png" />
+</p>
+
+```python
+from spacy import displacy
+displacy.serve(doc, style="dep")
+```
+
+Logo após fazer isso, abra seu browser [neste endereço](http://127.0.0.1:5000/). Se tudo correu bem, você deverá ver uma imagem idêntica à esta:
+
+<p align="center">
+  <img src="./imagens/Demonstração_6.2.png" />
+</p>
+
+> :bulb: **DICA:** você pode customizar as cores e o estilo do gráfico. [Veja as opções disponíveis aqui](https://spacy.io/api/top-level#displacy_options).
 
 ## :books: Tecnologias
 
