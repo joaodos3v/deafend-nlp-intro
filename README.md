@@ -1,10 +1,14 @@
 # Introdução: Processamento de Linguagem Natural (PLN)
 
 <figure>
-  <img alt="Ubots - Conheça mais sobre" src="https://ubots.com.br/wp-content/uploads/2020/05/13_05_Prancheta-1-1024x330.jpg" />
-  <figcaption>
-    <span align="center"><blockquote>Fonte da imagem: https://ubots.com.br/blog/processamento-de-linguagem-natural/</blockquote></span>
-  </figcaption>
+  <p align="center">
+    <img alt="DEAFEND - Logo" src="imagens/Logo.png"  width="300" height="200" />
+    <figcaption>
+      <span align="center">
+        <blockquote>Este repositório - integrante do projeto <a href="http://deafend-documentation.vercel.app/" target="_blank" rel="noopener noreferrer">DEAFEND</a> - visa demonstrar que é possível iniciar os estudos em Processamento de Linguagem Natural de forma simples, guiando o seu contato inicial com a área através de alguns exemplos básicos. Na sequência, você encontrará um tutorial de como configurar um ambiente completo para executar seus primeiros testes. Bons estudos! :handshake:</blockquote>
+      </span>    
+    </figcaption>
+  </p>
 </figure>
 
 ---
