@@ -258,4 +258,4 @@ Logo após fazer isso, abra seu browser [neste endereço](http://127.0.0.1:5000/
 - [Turing Talks](https://medium.com/turing-talks)
 - [Conjugação - Verbo Procurar](https://www.conjugacao.com.br/verbo-procurar/)
 
-<p align="center">Feito com :dart: por <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-veronese-vieira/" target="_blank" rel="noopener noreferrer">João Vitor Veronese Vieira</a> :boy:</p>
+<p align="center">Feito com :dart: por <a href="https://www.linkedin.com/in/joaodos3v/" target="_blank" rel="noopener noreferrer">João Vitor Veronese Vieira</a> :boy:</p>
